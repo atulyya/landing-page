@@ -1,0 +1,44 @@
+.header,
+.main-1,
+.footer {
+    background-color: #1F2937;
+
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header {
+    font-family: Roboto;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header-content {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.blog-button {
+    background-color: #3882F6;
+}
+
+.main-2 h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
