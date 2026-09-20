@@ -1,4 +1,7 @@
 * {
+    border: 1px solid red;
+    /* margin: 1px;
+    padding: 1px; */
 }
 
 html, body {
@@ -13,41 +16,90 @@ body {
     flex-direction: column;
 }
 
+.background {
+    background-color: #1F2937;
+}
+
 .header,
 .main-1,
 .footer {
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 0 300px;
 }
+
+/* .navigation {
+    display: flex;
+    text-decoration: none;
+} */
 
 .logo {
     font-size: 24px;
     margin-right: auto;
+    color: #F9FAF8;
 }
+
 
 .header {
     display: flex;
     text-decoration: none;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 18px;
+    color: rgb(173, 172, 172);
 }
 
 a {
-    color: #F9FAF8;
-    /* font-family: 'Roboto', sans-serif; */
+    color: rgb(173, 172, 172);
+    text-decoration: none;
 }
 
 h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin-bottom: 0;
+}
+
+.header-box {
+    display:flex;
+    align-items: center;
+    padding: 20px;
+    flex: 1;
 }
 
 .header-content {
     font-size: 18px;
     color: #E5E7EB;
+    width: 450px;
+    flex: 1;
+    flex-wrap: wrap;
+    /* border: 1px solid white; */
+}
+
+.header-content p {
+    margin-top: 0;
 }
 
 .blog-button {
     background-color: #3882F6;
+}
+
+.main-1 {
+    display: flex;
+    align-items: center;
+}
+
+.main-1 img {
+    width: auto;
+    height: 200px;
+    margin-left: auto;
+    padding-left: 60px;
+    flex-shrink: 1;
 }
 
 .main-2 h2 {
