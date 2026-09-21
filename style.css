@@ -109,7 +109,7 @@ h1 {
 .main-1 img {
     width: auto;
     height: 200px;
-    margin-left: auto;
+    margin-left: auto;  
     padding-left: 60px;
 }
 
@@ -126,7 +126,14 @@ h1 {
     font-weight: 900;
 }
 
+/* .quote {
+    display: flex;
+    flex: 1;
+} */
+
 .quote p {
+    display: flex;
+    flex: 1;
     background-color: #E5E7EB;
     font-size: 36px;
     color: #1F2937;
@@ -134,7 +141,7 @@ h1 {
     font-style: italic;
 }
 
-.quoter-name {
+.name {
     font-weight: 500;
 }
 
